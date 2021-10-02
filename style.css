@@ -1,0 +1,171 @@
+
+
+@media (max-width: 1440px) {
+  .background{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+
+
+  }
+  .main-body{
+    font-family: 'Red Hat Display';
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 800px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 25px;
+    background: white;
+
+
+  }
+
+  .top-img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 500px;
+  }
+
+  h1{
+    margin: 50px 0 40px 0;
+    font-weight:900;
+  }
+  h3{
+    text-align: left;
+    margin:30px 0 5px 0;
+  }
+  .plans{
+    background: hsl(225, 100%, 98%);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+  }
+  .price{
+    text-align: left;
+    margin: 0 0 30px 0;
+  }
+
+  .main-text{
+    margin: 0;
+  }
+
+  .first-td{
+    width:100px;
+  }
+  .second-td{
+    width:250px;
+  }
+  .third-td{
+    width: 150px;
+  }
+  .payment{
+    background: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    padding: 20px 150px 20px 150px;
+    border-color: hsl(245, 75%, 52%);
+    margin-top: 30px;
+    font-weight: 900;
+    color: white;
+  }
+
+  .payment:hover{
+    background: hsl(223, 47%, 23%);
+  }
+  .cancel{
+    margin-top: 40px;
+  }
+
+  .cancel:hover{
+    color:hsl(224, 23%, 55%);
+  }
+  .shadow{
+    box-shadow: 0 15px 20px 2px hsl(225, 100%, 92%);
+  }
+
+}
+
+@media(max-width:375px){
+  .background{
+    background-color: hsl(225, 100%, 94%);
+  }
+  .main-body{
+    font-family: 'Red Hat Display';
+    margin-top:50px;
+    width: 350px;
+    height: 560px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 25px;
+    background: white;
+
+
+  }
+
+  .top-img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 350px;
+  }
+
+  h1{
+    margin: 20px 0 20px 0;
+    font-weight:900;
+  }
+  h3{
+    text-align: left;
+    margin:10px 0 5px 0;
+  }
+  .plans{
+    background: hsl(225, 100%, 98%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  .price{
+    text-align: left;
+    margin: 0 0 10px 0;
+  }
+
+  .main-text{
+    margin: 0;
+  }
+
+  .first-td{
+    width:25%;
+  }
+  .second-td{
+    width:55%;
+  }
+  .third-td{
+    width: 20%;
+  }
+  .payment{
+    background: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    padding: 15px 87px 15px 87px;
+    border-color: hsl(245, 75%, 52%);
+    margin-top: 30px;
+    font-weight: 900;
+    color: white;
+  }
+
+  .payment:hover{
+    background: hsl(223, 47%, 23%);
+  }
+
+  .cancel{
+    margin-top: 20px;
+  }
+  .cancel:hover{
+    color:hsl(224, 23%, 55%);
+  }
+  .shadow{
+    box-shadow: 0 10px 15px 2px hsl(225, 100%, 92%);
+  }
+
+}
+}
